@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+  <div class="container">
+    <div class="row row-md flex-sm-wrap py-8">
+      <div class="col-5 col-md-12">
+        <div class="border-radio-3 brand-banner brand-banner-md"></div>
+      </div>
+      <div class="col-7 col-md-12 border-radio-3">
+        <div class="text-center py-30 py-md-8">
+          <h2 class="h3 mb-8">歡迎</h2>
+          <ol class="row mb-8 h6 text-neutral-900">
+            <li class="col-6 pe-0"><a class="py-3 d-block border-bottom-2" href="#">登入</a></li>
+            <li class="col-6 ps-0"><a class="py-3 d-block border-bottom-3" href="#">註冊</a></li>
+          </ol>
+          <ol>
+            <li class="border-2 border-radio-1 mb-2 bg-white">
+              <a class="d-block px-3 py-3" href="#">
+                <div class="d-flex align-item-center">
+                  <img class="me-3 d-inline-block" src="../assets/images/facebook.svg" alt="fb icon">
+                  <p>Facebook 登入</p>
+                </div>
+              </a>
+            </li>
+            <li class="border-2 border-radio-1 mb-2 bg-white">
+              <a class="d-block px-3 py-3" href="#">
+                <div class="d-flex align-item-center">
+                  <img class="me-3 d-inline-block" src="../assets/images/apple.svg" alt="apple icon">
+                  <p>Apple 登入</p>
+                </div>
+              </a
+                >
+            </li>
+            <li class="border-2 border-radio-1 bg-white">
+              <a class="d-block px-3 py-3" href="#">
+                <div class="d-flex align-item-center">
+                  <img class="me-3 d-inline-block" src="../assets/images/google.svg" alt="google icon">
+                  <p>Google 登入</p>
+                </div>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+    <%- include('./layout/footer'); -%>
+  </body>
+  <script type="module" src="../main.js"></script>
+</html>
