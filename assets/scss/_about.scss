@@ -1,0 +1,46 @@
+.header{
+  background-image: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0;
+  text-align: center;
+}
+@include pad(){
+  .header-md{
+    padding: 87px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/hero-sm.png);
+  }
+}
+.eng-title{
+  font-size: 28px;
+}
+.intro img{
+  width: 1076px;
+  margin-right: -100px;
+  margin-left: -110px;
+}
+.history {
+  li{
+  list-style-type:disc;
+}
+}
+.history-line{
+  border-left: 1px solid $neutral-900
+}
+.idea-line{
+  padding-left: 12px;
+  border-left: 3px solid $neutral-300;
+}
+.story a{
+  display: inline-block;
+  border-bottom: 1px solid ;
+  color: $primary-400;
+  &:hover{
+      border-bottom: 0px solid ;
+
+  }
+}
+.link:hover{
+  color: $neutral-500;
+}
