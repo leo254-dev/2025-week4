@@ -1,0 +1,49 @@
+.bread{
+  a:hover{
+    color: $primary-400;
+  }
+  &::after{
+    content: "/";
+    padding-left: 12px;
+    padding-right: 12px;
+    color: $neutral-300;
+  }
+} 
+@include mobile(){
+  .bread a{
+    font-size: 14px;
+  }
+}
+.item:hover{
+  color: $primary-400;
+}
+.other-style:hover{
+  opacity: 50%;
+}
+.slider {
+  overflow-x: visible;
+  display: flex;
+  gap: 10px;
+}
+.arrow{
+  font-size: 20px;
+  &.disabled{
+    color: $neutral-900;
+  }
+}
+.pre,.next{
+  padding: 10px;
+}
+.pre:hover,.next:hover{
+  color: $neutral-300;
+}
+a.active{
+  background-color: $primary-300;
+  padding: 8px 15px;
+}
+a.notactive{
+  padding: 8px 15px;
+  &:hover{
+    background-color: $neutral-100;
+  }
+}

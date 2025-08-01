@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>產品列表頁</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+  <main class="container py-16">
+    <div class="row row-md">
+      <ul class="col-7 d-md-none">
+        <li class="product-row">
+          <img class="productcol-6 mb-2" src="../assets/images/image.png" alt="img0">
+          <img class="productcol-6 mb-2" src="../assets/images/image-1.png" alt="img1">
+          <img class="productcol-6 mb-2" src="../assets/images/image-2.png" alt="img2">
+          <img class="productcol-6 mb-2" src="../assets/images/image-3.png" alt="img3">
+          <img class="productcol-6 mb-2" src="../assets/images/image-4.png" alt="img4">
+          <img class="productcol-6 mb-2" src="../assets/images/image-5.png" alt="img5">
+          <img class="productcol-6" src="../assets/images/image-6.png" alt="img6">
+          <img class="productcol-6" src="../assets/images/image-7.png" alt="img7">
+        </li>
+      </ul>    
+      <div class="col-5 col-md-12">
+        <ol class="d-flex mb-3">
+          <li class="bread"><a class="text-neutral-600" href="#">首頁</a></li>
+          <li class="bread"><a class="text-neutral-600" href="#">女鞋</a></li>
+          <li class="bread"><a class="text-neutral-600" href="#">滑板鞋</a></li>
+          <li class="font-medium">Platform 404</li>
+        </ol>
+        <h1 class="h2 h4-sm mb-4">Platform 404</h1>
+        <div class="mb-4 d-flex align-item-center">
+          <span class="text-primary-400 h5 h6-sm me-2">NT$2,600</span>
+          <del class="text-neutral-500 text-sm">NT$3,200</del>
+        </div>
+        <p class="mb-3">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
+        <p class="mb-8">鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
+        <div>
+          <span class="d-block mb-2">顏色</span>
+          <div class="product-row product-row-md mb-8 text-neutral-600">
+            <a href="#" class="productcol-2">
+              <img class="other-style" src="../assets/images/product.png" alt="藍色">
+              <span class="d-block text-center font-medium">藍色</span>
+            </a>
+            <a href="#" class="productcol-2">
+              <img class="other-style" src="../assets/images/product-1.png" alt="卡其色">
+              <span class="d-block text-center font-medium">卡其色</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <span class="d-block mb-2">尺寸</span>
+          <ul class="product-row product-row-md mb-2 text-center">
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 select border-radio-1 size hover" href="#">35(22.5cm)</a></li>
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 border-radio-1 default size hover" href="#">36(23.0cm)</a></li>
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 border-radio-1 default size hover" href="#">37(23.5cm)</a></li>
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 border-radio-1 default size hover" href="#">38(24.0cm)</a></li>
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 border-radio-1 default size hover" href="#">39(24.5cm)</a></li>
+            <li class="productcol-4 productcol-6-md mb-2"><a class="px-3 d-block py-6 border-radio-1 default size hover" href="#">40(25.0cm)</a></li>
+            <li class="productcol-4 productcol-6-md"><a class="px-3 d-block py-6 border-radio-1 default" href="#">41(26.0cm)</a></li>
+            <li class="productcol-4 productcol-6-md"><a class="px-3 d-block py-6 border-radio-1 default-op text-neutral-900 disabled" href="#">42(26.5cm)</a></li>
+            <li class="productcol-4 productcol-6-md"><a class="px-3 d-block py-6 border-radio-1 default-op text-neutral-900 disabled" href="#">43(27.0cm)</a></li>
+          </ul>
+          <span class="d-block text-danger mb-12">僅剩 3 雙</span>
+          <div class="product-row product-row-md mb-8 text-center flex-nowrap">
+            <a href="#" class="d-block productcol-6 py-3 select me-2 favorite"><i class="bi bi-heart me-2 icon"></i><span>加入收藏</span></a>
+            <a href="#" class="d-block productcol-6 py-3 bg-neutral-900 text-white book"><i class="bi bi-handbag me-2 icon"></i><span>門市預約試穿</span></a>
+          </div>
+          <ul>
+            <li class="px-3 px-md-3">
+              <h3 class="mb-1 font-medium">商品材質</h3>
+              <p class="menu pb-3 text-neutral-600">鞋面：合成皮革（Synthetic Leather）<br>內裡：透氣網布材質，提升舒適與排汗性<br>鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果<br>鞋帶：聚酯纖維，耐拉扯不易鬆脫</p>
+            </li>
+            <li class="px-3 px-md-3">
+              <h3 class="mb-1 font-medium">購買須知</h3>
+              <p class="menu pb-3 text-neutral-600">商品顏色因螢幕顯示可能略有差異，請以實品為準。<br>建議首次穿著前試穿確認尺寸，避免影響退換貨權益。<br>本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。</p>
+            </li>
+            <li class="px-3 px-md-3">
+              <h3 class="mb-1 font-medium">保養方式</h3>
+              <p class="menu pb-3 text-neutral-600">建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。<br>收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。<br>若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="others py-12 py-md-10">
+    <div class="container">
+      <h2 class="h4 mb-4">你可能也喜歡...</h2>
+      <div class="slider">
+        <ul class="row row-md">
+          <li class="col-3 col-sm-12">
+            <a href="./product.html" class="d-block">
+              <img class="mb-6" src="../assets/images/product-2.png" alt="產品2">
+              <span class="d-block h6 mb-1">VM001</span>
+              <span class="d-block font-medium">NT$2,600</span>
+            </a>  
+          </li>
+          <li class="col-3 col-sm-12">
+            <a href="./product.html" class="d-block">
+              <img class="mb-6" src="../assets/images/product-3.png" alt="產品3">
+              <span class="d-block h6 mb-1">Melty Kiss</span>
+              <span class="d-block font-medium">NT$4,000</span>
+            </a>  
+          </li>
+          <li class="col-3 col-sm-12">
+            <a href="./product.html" class="d-block">
+              <img class="mb-6" src="../assets/images/product-4.png" alt="產品4">
+              <span class="d-block h6 mb-1">BOOMBLOK</span>
+              <span class="d-block font-medium">NT$3,200</span>
+            </a>  
+          </li>
+          <li class="col-3 col-sm-12">
+            <a href="./product.html" class="d-block">
+              <img class="mb-6" src="../assets/images/product-7.png" alt="產品7">
+              <span class="d-block h6 mb-1">Sugar Snap</span>
+              <span class="d-block font-medium">NT$3,200</span>
+            </a>  
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="d-flex align-item-center bg-primary-200 py-6 justify-content-center mt-10 mt-md-6">
+      <p class="h4 h5-md">加入會員取得 9 折優惠</p>
+      <a class="text-white d-inline-block bg-neutral-900 py-3 ms-6 px-6 register" href="#">馬上註冊</a>
+    </div>
+  </div>
+    <%- include('./layout/footer'); -%>
+
+  </body>
+  <script type="module" src="../main.js"></script>
+</html>
