@@ -62,3 +62,15 @@
     background-size: cover;
   }
 }
+.select{
+  border: 1px solid $neutral-900;
+}
+.default{
+  border: 1px solid $neutral-300;
+}
+.default-op{
+  border: 1px solid $neutral-300;
+}
+.size:hover{
+  border: 1px solid $neutral-900;
+}

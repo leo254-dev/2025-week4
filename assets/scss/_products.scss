@@ -27,6 +27,9 @@
 }
 .arrow{
   font-size: 20px;
+  &.disabled{
+    color: $neutral-900;
+  }
 }
 .pre,.next{
   padding: 10px;
